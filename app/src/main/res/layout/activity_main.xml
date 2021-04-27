@@ -34,8 +34,8 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="52dp"
         android:text="Contact"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -45,18 +45,22 @@
     <TextView
         android:id="@+id/usname"
         android:layout_width="175dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="68dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="64dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/welcome" />
 
     <TextView
         android:id="@+id/uscontact"
-        android:layout_width="178dp"
-        android:layout_height="32dp"
+        android:layout_width="173dp"
+        android:layout_height="42dp"
         android:layout_marginStart="96dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="28dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/usname" />
 
@@ -65,7 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="44dp"
         android:text="Account no"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -74,10 +78,12 @@
 
     <TextView
         android:id="@+id/usaccno"
-        android:layout_width="176dp"
-        android:layout_height="32dp"
+        android:layout_width="170dp"
+        android:layout_height="42dp"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="36dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/uscontact" />
 
@@ -86,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="60dp"
         android:text="Current Balance"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -98,7 +104,9 @@
         android:layout_width="170dp"
         android:layout_height="41dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/usaccno" />
 
@@ -107,7 +115,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="155dp"
         android:text="Deposit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -116,8 +124,8 @@
         android:id="@+id/withdraw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="146dp"
         android:text="Withdraw"
         app:layout_constraintStart_toEndOf="@+id/deposit"
         app:layout_constraintTop_toBottomOf="@+id/uscurrbal" />

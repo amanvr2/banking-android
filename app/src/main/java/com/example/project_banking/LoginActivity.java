@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(verifyLogin(userList,username.getText().toString(),password.getText().toString())) {
                     name = username.getText().toString();
-                    Toast.makeText(getBaseContext(),"Login successfull",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getBaseContext(),"Login successful",Toast.LENGTH_LONG).show();
                     Intent intent= new Intent(getBaseContext(),MainActivity.class);
                     startActivity(intent);
                 }
